@@ -203,3 +203,10 @@ footer a {
         width: 100% !important; /* Make the Add Student section take full width */
     }
 }
+
+
+
+/* If the button's type is reset, set the background color to red */
+#add-student button[type="reset"] {
+    background-color: rgb(218, 78, 78); /* Set background color to red for reset type */
+}
